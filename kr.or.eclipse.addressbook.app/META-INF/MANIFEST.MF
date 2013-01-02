@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AddressBook App
+Bundle-SymbolicName: kr.or.eclipse.addressbook.app
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: kr.or.eclipse.addressbook.app.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ kr.or.eclipse.addressbook;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
